@@ -2,7 +2,7 @@
 document.getElementById("check").onclick =()=>{
     var weight = document.getElementById("weight").value;
     var height = document.getElementById("height").value;
-    var BMI =  parseInt(weight) / parseFloat(height);
+    var BMI =  parseFloat(weight) / parseFloat(height);
     BMI = BMI.toFixed(2)
 
     try {
