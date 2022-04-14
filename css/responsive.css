@@ -1,0 +1,15 @@
+@media only screen and (max-width: 768px) {
+    #container{
+        width: 50%;
+        height: 45vh;
+        position: absolute;
+        left: 20%;
+    }
+    input{
+     width: 60%;
+     margin: 30px;
+    }
+    button{
+        margin: 40px;
+    }
+}
